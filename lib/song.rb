@@ -43,6 +43,6 @@ class Song
     genre_hash
     end 
   def self.artist_count
-    @@artists.count(@artist)
+    artist_hash =
   end 
 end 
