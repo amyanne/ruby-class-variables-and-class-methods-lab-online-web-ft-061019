@@ -39,7 +39,7 @@ class Song
     genre_hash = {}
     num = 0
     @@genres.each do |genre|
-    if genre_hash.keys.include?(genre)
+    if genre_hash.include?(genre)
     else
     genre_hash = {genre => @@genres.count(genre)}
   end
