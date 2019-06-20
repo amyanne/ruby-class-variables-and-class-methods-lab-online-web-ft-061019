@@ -41,7 +41,6 @@ class Song
     @@genres.each do |genre|
     if genre_hash.keys.include?(genre)
     else
-      binding.pry 
     genre_hash = {genre => @@genres.count(genre)}
   end
   end
